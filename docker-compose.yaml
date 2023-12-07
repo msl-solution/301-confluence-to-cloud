@@ -1,0 +1,6 @@
+services:
+
+  redirect_short_url_calls:
+    image: openresty:latest
+    ports:
+      - "80:80"

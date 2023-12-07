@@ -1,0 +1,935 @@
+jpw,jtel Portal WIKI,Supervisor - Realtime Values,327753
+jpw,jtel Portal WIKI,Supervisor and Wallboard Content,327854
+jpw,jtel Portal WIKI,Supervisor - Today's  Statistics,327852
+jpw,jtel Portal WIKI,Supervisor - Inbound Media Events,327863
+jpw,jtel Portal WIKI,Supervisor - Wallboard Total,327879
+jpw,jtel Portal WIKI,Supervisor - Wallboard Graphics,327940
+jpw,jtel Portal WIKI,Supervisor - Group Details,327948
+jpw,jtel Portal WIKI,jtel Portal WIKI,327758
+jpw,jtel Portal WIKI,ACD-002 - ACD Statistics Itemised Call Details,327959
+jpw,jtel Portal WIKI,ACD-A-009 - ACD Agent Status Report,327819
+jpw,jtel Portal WIKI,ACD-G-007 - ACD Caller Report,327812
+jpw,jtel Portal WIKI,ACD-A-012 - ACD Agents Call Reason Report,327804
+jpw,jtel Portal WIKI,ACD-G-008 - ACD Group Call Reason Report,327830
+jpw,jtel Portal WIKI,ACD-G-006 - ACD Group Status Report,328042
+jpw,jtel Portal WIKI,ACD-G-010 - ACD Statistics Group Calls,327886
+jpw,jtel Portal WIKI,ACD-A-014 - ACD Supervisor and Agents Login Report,327890
+jpw,jtel Portal WIKI,ACD-004 - ACD Clients Report,327891
+jpw,jtel Portal WIKI,IVR-002 - Call Origin,327897
+jpw,jtel Portal WIKI,Restore MySQL Master Slave Replication,327894
+jpw,jtel Portal WIKI,ACD-TAC-004 - ACD Transaction Code Input Report,327953
+jpw,jtel Portal WIKI,ACD-TAC-001 - ACD Transaction Code Report and variant,327832
+jpw,jtel Portal WIKI,ACD-005 - ACD Inboxes Itemised Details,327849
+jpw,jtel Portal WIKI,ACD-G-009 - ACD Inboxes Groups Report,327944
+jpw,jtel Portal WIKI,The Role Model of the jtel System,327954
+jpw,jtel Portal WIKI,Role LB - Certificates for load balancers,327970
+jpw,jtel Portal WIKI,Supervisor - Threshold values for tiles,327955
+jpw,jtel Portal WIKI,VMWare ESXi Installation,327835
+jpw,jtel Portal WIKI,Reporting API,327898
+jpw,jtel Portal WIKI,UI Widgets (XML definitions),327895
+jpw,jtel Portal WIKI,Overview,327887
+jpw,jtel Portal WIKI,Introduction,327844
+jpw,jtel Portal WIKI,Access and Login,327841
+jpw,jtel Portal WIKI,The User Interface,327842
+jpw,jtel Portal WIKI,ACD,327859
+jpw,jtel Portal WIKI,Planning the ACD,327848
+jpw,jtel Portal WIKI,Some Basic Terms,327862
+jpw,jtel Portal WIKI,Entry Points,327931
+jpw,jtel Portal WIKI,Check Points,327856
+jpw,jtel Portal WIKI,The Queue,327855
+jpw,jtel Portal WIKI,Agent Status,327857
+jpw,jtel Portal WIKI,Telephone Status,327939
+jpw,jtel Portal WIKI,Configuring the ACD,327937
+jpw,jtel Portal WIKI,Users,327938
+jpw,jtel Portal WIKI,Groups and Rules,327936
+jpw,jtel Portal WIKI,Copy Group,327932
+jpw,jtel Portal WIKI,Editing groups and creating rules,327929
+jpw,jtel Portal WIKI,Skills,327947
+jpw,jtel Portal WIKI,Creating skills,327945
+jpw,jtel Portal WIKI,Skill assignments,327713
+jpw,jtel Portal WIKI,Agents Status,327708
+jpw,jtel Portal WIKI,Free-Seating Whitelist,327715
+jpw,jtel Portal WIKI,Media Events,327706
+jpw,jtel Portal WIKI,Inboxes and edit e-mails,327704
+jpw,jtel Portal WIKI,Junk Groups,327705
+jpw,jtel Portal WIKI,Edit Service Numbers,327703
+jpw,jtel Portal WIKI,Transaction-Codes,327734
+jpw,jtel Portal WIKI,Call-Flow Logging,327732
+jpw,jtel Portal WIKI,Reports,327730
+jpw,jtel Portal WIKI,Login und Logout,327729
+jpw,jtel Portal WIKI,ACD Supervisor,327717
+jpw,jtel Portal WIKI,Mappings,327723
+jpw,jtel Portal WIKI,Types Overview,327720
+jpw,jtel Portal WIKI,Creating and editing web messages,327769
+jpw,jtel Portal WIKI,Working as an Agent (using a Browser),327782
+jpw,jtel Portal WIKI,Logging In,327771
+jpw,jtel Portal WIKI,Agent Home,327773
+jpw,jtel Portal WIKI,Group Details,327770
+jpw,jtel Portal WIKI,Web Messages,327724
+jpw,jtel Portal WIKI,Working as an Agent (using the telephone),327789
+jpw,jtel Portal WIKI,Logging In and Management,327786
+jpw,jtel Portal WIKI,Call Handling,327787
+jpw,jtel Portal WIKI,IVR,327777
+jpw,jtel Portal WIKI,IVR Example Program 1,327790
+jpw,jtel Portal WIKI,Requirements,327791
+jpw,jtel Portal WIKI,Create a routing application,327788
+jpw,jtel Portal WIKI,Edit routing,327778
+jpw,jtel Portal WIKI,Allocate routing,327779
+jpw,jtel Portal WIKI,Test und Logging,327776
+jpw,jtel Portal WIKI,Setup Voice Mail,327783
+jpw,jtel Portal WIKI,End Call Actions and Test,327780
+jpw,jtel Portal WIKI,Call Routing,327781
+jpw,jtel Portal WIKI,Objects,327741
+jpw,jtel Portal WIKI,Variables,327793
+jpw,jtel Portal WIKI,Lists,327742
+jpw,jtel Portal WIKI,IVR Example Program 2 - Lists and Variables,327796
+jpw,jtel Portal WIKI,Routing Applications,327797
+jpw,jtel Portal WIKI,Create routing application,327794
+jpw,jtel Portal WIKI,Editing Routing Applications,327792
+jpw,jtel Portal WIKI,Working with the Routing Editor,327784
+jpw,jtel Portal WIKI,IVR Statistics Markers,327798
+jpw,jtel Portal WIKI,Object Reference,327799
+jpw,jtel Portal WIKI,Offhook,327748
+jpw,jtel Portal WIKI,ACD / Automatic Call Distribution,327749
+jpw,jtel Portal WIKI,Refuse Call,327737
+jpw,jtel Portal WIKI,End Call Actions,327750
+jpw,jtel Portal WIKI,Hangup,327751
+jpw,jtel Portal WIKI,Recording,327736
+jpw,jtel Portal WIKI,Save Recording(s),327739
+jpw,jtel Portal WIKI,Play Recording(s),327766
+jpw,jtel Portal WIKI,Play Voice,327764
+jpw,jtel Portal WIKI,Play Tarif,327765
+jpw,jtel Portal WIKI,Play Variable,327755
+jpw,jtel Portal WIKI,User search,327752
+jpw,jtel Portal WIKI,Cockpit-Variable,327756
+jpw,jtel Portal WIKI,Input Menu DTMF,327757
+jpw,jtel Portal WIKI,Input Menu DTMF + ASR,327754
+jpw,jtel Portal WIKI,Input Digits DTMF,327746
+jpw,jtel Portal WIKI,Input Digits DTMF + ASR,327745
+jpw,jtel Portal WIKI,E-Mail,327759
+jpw,jtel Portal WIKI,GOSUB,327865
+jpw,jtel Portal WIKI,GOTO,327866
+jpw,jtel Portal WIKI,Hotbutton,327870
+jpw,jtel Portal WIKI,http Request,327867
+jpw,jtel Portal WIKI,Junk Call Test,327868
+jpw,jtel Portal WIKI,Cost free queueing,327761
+jpw,jtel Portal WIKI,List Lookup,327869
+jpw,jtel Portal WIKI,List Functions,327762
+jpw,jtel Portal WIKI,OnFaxTone Actions,327763
+jpw,jtel Portal WIKI,RETURN,327972
+jpw,jtel Portal WIKI,Number Suppressed,327969
+jpw,jtel Portal WIKI,Callback Create,327973
+jpw,jtel Portal WIKI,Start,327974
+jpw,jtel Portal WIKI,Set Statistics-Marker,327971
+jpw,jtel Portal WIKI,Origin AT-Details,327962
+jpw,jtel Portal WIKI,Origin AT-Prefix,327960
+jpw,jtel Portal WIKI,Origin CH-Details,327963
+jpw,jtel Portal WIKI,Origin CH-Prefix,327964
+jpw,jtel Portal WIKI,Origin D-State,327961
+jpw,jtel Portal WIKI,Origin D-Area Code,327989
+jpw,jtel Portal WIKI,Declare Variable,327990
+jpw,jtel Portal WIKI,Connect,327977
+jpw,jtel Portal WIKI,Connect with Recording,327975
+jpw,jtel Portal WIKI,Branch Holiday,327976
+jpw,jtel Portal WIKI,Branch Opening Hours,327982
+jpw,jtel Portal WIKI,Branch Percentage,327979
+jpw,jtel Portal WIKI,Branch Sequence,327980
+jpw,jtel Portal WIKI,Comparison,327968
+jpw,jtel Portal WIKI,Loop,328070
+jpw,jtel Portal WIKI,SMS,328071
+jpw,jtel Portal WIKI,String functions,328068
+jpw,jtel Portal WIKI,Routing Plans,328058
+jpw,jtel Portal WIKI,Creating a Routing Plan and Rules,328059
+jpw,jtel Portal WIKI,Editing a Routing Plan and Rules,328056
+jpw,jtel Portal WIKI,Conference Server,328057
+jpw,jtel Portal WIKI,Preparing a Conference,327984
+jpw,jtel Portal WIKI,Creating Conferences,328062
+jpw,jtel Portal WIKI,The Conference Wizard,328060
+jpw,jtel Portal WIKI,Editing Conferences,328061
+jpw,jtel Portal WIKI,Holding Conferences,327988
+jpw,jtel Portal WIKI,The Monitor,327985
+jpw,jtel Portal WIKI,Participant Dial-In,327986
+jpw,jtel Portal WIKI,DTMF-Codes,328083
+jpw,jtel Portal WIKI,Managing a Conference,328081
+jpw,jtel Portal WIKI,Controlling Sub Conferences,328029
+jpw,jtel Portal WIKI,Conference Management,328030
+jpw,jtel Portal WIKI,Conference Statistics,328087
+jpw,jtel Portal WIKI,Conference PINs,328084
+jpw,jtel Portal WIKI,PIN Statistics,328085
+jpw,jtel Portal WIKI,Conference Recording PINs,328082
+jpw,jtel Portal WIKI,Presentations,328077
+jpw,jtel Portal WIKI,Administration,328075
+jpw,jtel Portal WIKI,Prompt Management,328072
+jpw,jtel Portal WIKI,Prompts,328086
+jpw,jtel Portal WIKI,Create a Prompt,328069
+jpw,jtel Portal WIKI,Editing a Prompt,328067
+jpw,jtel Portal WIKI,Prompt Types,328078
+jpw,jtel Portal WIKI,Tarif Prompts,328079
+jpw,jtel Portal WIKI,TTS Exception Lexica,328024
+jpw,jtel Portal WIKI,User Data,328037
+jpw,jtel Portal WIKI,Creating Users,328038
+jpw,jtel Portal WIKI,Editing Users,328025
+jpw,jtel Portal WIKI,Security Groups,328026
+jpw,jtel Portal WIKI,Creating Security Groups,328023
+jpw,jtel Portal WIKI,Editing Security Groups,328027
+jpw,jtel Portal WIKI,User Master Data,328028
+jpw,jtel Portal WIKI,Client Master  Data,328050
+jpw,jtel Portal WIKI,User Data ...User Search,328047
+jpw,jtel Portal WIKI,Hot_button,328048
+jpw,jtel Portal WIKI,Logging,327811
+jpw,jtel Portal WIKI,Alarms,328053
+jpw,jtel Portal WIKI,Call-Log,328054
+jpw,jtel Portal WIKI,Call-Log-Analyse,328051
+jpw,jtel Portal WIKI,Data Change-Log,328049
+jpw,jtel Portal WIKI,E-Mail-Log,328043
+jpw,jtel Portal WIKI,Bad Login Log,328044
+jpw,jtel Portal WIKI,Locked Users,328041
+jpw,jtel Portal WIKI,Locked IP Addresses,328039
+jpw,jtel Portal WIKI,Messaging,328034
+jpw,jtel Portal WIKI,Call Recordings,328031
+jpw,jtel Portal WIKI,SMTP,328045
+jpw,jtel Portal WIKI,Voice-Mails,327818
+jpw,jtel Portal WIKI,Number Management,327815
+jpw,jtel Portal WIKI,Cause Codes,327816
+jpw,jtel Portal WIKI,Restricted Numbers,327802
+jpw,jtel Portal WIKI,Country Codes,327820
+jpw,jtel Portal WIKI,Area Codes,327810
+jpw,jtel Portal WIKI,SMS Receive Connectors,327800
+jpw,jtel Portal WIKI,Service Number Status,327821
+jpw,jtel Portal WIKI,PBX Users,327822
+jpw,jtel Portal WIKI,Traffic Management Policies,327829
+jpw,jtel Portal WIKI,Destination Numbers,327828
+jpw,jtel Portal WIKI,Destination Number Status,327996
+jpw,jtel Portal WIKI,System Settings,327993
+jpw,jtel Portal WIKI,Cockpit Variables,327991
+jpw,jtel Portal WIKI,Creating Cockpit Variables,328005
+jpw,jtel Portal WIKI,Editing Cockpit Variables,327919
+jpw,jtel Portal WIKI,Email Addresses,327920
+jpw,jtel Portal WIKI,Contact Class,327923
+jpw,jtel Portal WIKI,System Settings - Lists,327921
+jpw,jtel Portal WIKI,List Import FTP,327922
+jpw,jtel Portal WIKI,List Upload FTP,327911
+jpw,jtel Portal WIKI,Opening Times,327912
+jpw,jtel Portal WIKI,Locations,327925
+jpw,jtel Portal WIKI,Texts,327926
+jpw,jtel Portal WIKI,Long Texts,327999
+jpw,jtel Portal WIKI,ACD Glossary,328013
+jpw,jtel Portal WIKI,Session-Log,327909
+jpw,jtel Portal WIKI,User Settings,327905
+jpw,jtel Portal WIKI,Supported Browsers,327907
+jpw,jtel Portal WIKI,Supervisor Grid Settings,327910
+jpw,jtel Portal WIKI,Moving a Server from ESXi Server to another ESXi Server,327951
+jpw,jtel Portal WIKI,CentOS 7 - Basic installation as VM with .ISO image,327884
+jpw,jtel Portal WIKI,CentOS 7 - After basic installation,327882
+jpw,jtel Portal WIKI,Dialler,327743
+jpw,jtel Portal WIKI,Dialler Contacts - Legacy Import / Export Format,327740
+jpw,jtel Portal WIKI,SSL/TLS Certificates - Self-signed certificate,327958
+jpw,jtel Portal WIKI,Restore MySQL Master-Master Replication,327956
+jpw,jtel Portal WIKI,SIP Responses / ISDN Cause Codes,327952
+jpw,jtel Portal WIKI,SalesForce Integration,327901
+jpw,jtel Portal WIKI,First Steps,327900
+jpw,jtel Portal WIKI,Call Center Adapter Installation,327899
+jpw,jtel Portal WIKI,Roles and Rights,327853
+jpw,jtel Portal WIKI,Change logo and colours,327908
+jpw,jtel Portal WIKI,Extension of the role STORE (LVM not redundant),327738
+jpw,jtel Portal WIKI,Scenarios,327795
+jpw,jtel Portal WIKI,DRBD - Maintenance and Resolve Split Brain or Node Errors,327785
+jpw,jtel Portal WIKI,Logon as Wallboard,327768
+jpw,jtel Portal WIKI,Starting Up and Shutting Down,327772
+jpw,jtel Portal WIKI,APIs,327774
+jpw,jtel Portal WIKI,Diverses / Various,327725
+jpw,jtel Portal WIKI,Operations,327726
+jpw,jtel Portal WIKI,SOAP API,327716
+jpw,jtel Portal WIKI,TTS,327719
+jpw,jtel Portal WIKI,CereProc TTS,327718
+jpw,jtel Portal WIKI,CentOS 7.x + Windows Server 2016 / 2012 R2,327722
+jpw,jtel Portal WIKI,getCallerInformation,327714
+jpw,jtel Portal WIKI,Client Master Data,327700
+jpw,jtel Portal WIKI,Apex REST APIs,327702
+jpw,jtel Portal WIKI,Connected App Configuration,327707
+jpw,jtel Portal WIKI,Sample Apex Class getCallerInformation,327943
+jpw,jtel Portal WIKI,Testing with CURL,327946
+jpw,jtel Portal WIKI,IVR Object getCallerInformation,327935
+jpw,jtel Portal WIKI,SalesForce - Introduction,327942
+jpw,jtel Portal WIKI,writeCallStatistics,327927
+jpw,jtel Portal WIKI,Sample Apex Class writeCallStatistics,327930
+jpw,jtel Portal WIKI,Micro Client,327934
+jpw,jtel Portal WIKI,onClickToDial,327933
+jpw,jtel Portal WIKI,Sample Apex Class onClickToDial,327858
+jpw,jtel Portal WIKI,Role STORE - DRBD File System (Redundant no LVM),327860
+jpw,jtel Portal WIKI,Redundancy - Installing PCS Cluster,327840
+jpw,jtel Portal WIKI,Role STORE - Install Applications and Data,327843
+jpw,jtel Portal WIKI,Linking STORE (All Linux except STORE),327845
+jpw,jtel Portal WIKI,Role DATA - All Variants,327831
+jpw,jtel Portal WIKI,Role DATA - Simple Master / Slave,327833
+jpw,jtel Portal WIKI,Role DATA - Installation PlatformUDPListener,327838
+jpw,jtel Portal WIKI,Role DATA - Initial setup of the system data,327889
+jpw,jtel Portal WIKI,Rolle DATA - Master / Master + 2 Slaves (Redundanz),327893
+jpw,jtel Portal WIKI,Role DATA - Initial setup of the replication,327883
+jpw,jtel Portal WIKI,Grundinstallation,327872
+jpw,jtel Portal WIKI,Rolle DATA,327871
+jpw,jtel Portal WIKI,Rolle STORE,327874
+jpw,jtel Portal WIKI,Redundancy,327873
+jpw,jtel Portal WIKI,Role WEB,327876
+jpw,jtel Portal WIKI,Rolle LB,327878
+jpw,jtel Portal WIKI,Role LB - Redundant,327864
+jpw,jtel Portal WIKI,Role LB - Not Redundant,327966
+jpw,jtel Portal WIKI,Role LB - All Variants,327965
+jpw,jtel Portal WIKI,Role LB - Adjust haproxy configuration,328015
+jpw,jtel Portal WIKI,Rolle TEL - Installation als Anwendung,328017
+jpw,jtel Portal WIKI,Checklist Installation Customer System,328020
+jpw,jtel Portal WIKI,Windows base system,328019
+jpw,jtel Portal WIKI,Release Notes,328022
+jpw,jtel Portal WIKI,Older Releases - 3.09 and previous,328007
+jpw,jtel Portal WIKI,Database Operations,328001
+jpw,jtel Portal WIKI,Rolle TEL,327994
+jpw,jtel Portal WIKI,Role TEL - Installation as service,327997
+jpw,jtel Portal WIKI,Role CHAT,327924
+jpw,jtel Portal WIKI,Role STORE - LVM (Non Redundant),327825
+jpw,jtel Portal WIKI,Campaigns,327814
+jpw,jtel Portal WIKI,Dialler Operation,327813
+jpw,jtel Portal WIKI,Result Codes,327817
+jpw,jtel Portal WIKI,Linux Firewall,328035
+jpw,jtel Portal WIKI,Aculab Licences,328080
+jpw,jtel Portal WIKI,System Administration,328074
+jpw,jtel Portal WIKI,Working as System Administrator,328076
+jpw,jtel Portal WIKI,Parameters,328065
+jpw,jtel Portal WIKI,Trunks and Trunk Groups,328066
+jpw,jtel Portal WIKI,SalesForce Dataloader,328063
+jpw,jtel Portal WIKI,Clients,327983
+jpw,jtel Portal WIKI,Service Numbers (sysadmin),327987
+jpw,jtel Portal WIKI,Feiertagslisten / Holidays,327914
+jpw,jtel Portal WIKI,Holidays Germany,327913
+jpw,jtel Portal WIKI,VMWare Operations,327916
+jpw,jtel Portal WIKI,Infrastructure and Operations,327918
+jpw,jtel Portal WIKI,Server Specification,327917
+jpw,jtel Portal WIKI,Installation,327904
+jpw,jtel Portal WIKI,Cloning a VM from the ESXi Command Line,327903
+jpw,jtel Portal WIKI,ESXi - Enable Outgoing SSH connections,327906
+jpw,jtel Portal WIKI,Remote telephony,327767
+jpw,jtel Portal WIKI,Role STORE - DRBD File System (Redundant with LVM),327728
+jpw,jtel Portal WIKI,Role STORE - Increase File System Size (Redundant DRBD on LVM),327710
+jpw,jtel Portal WIKI,STORE - Increase Space,327712
+jpw,jtel Portal WIKI,JTELStats2,327950
+jpw,jtel Portal WIKI,CompressedA,327949
+jpw,jtel Portal WIKI,SMTP Settings,327941
+jpw,jtel Portal WIKI,CompressedUA,327861
+jpw,jtel Portal WIKI,CompressedU,327847
+jpw,jtel Portal WIKI,User Profiles,327846
+jpw,jtel Portal WIKI,ODBC Data Sources,327892
+jpw,jtel Portal WIKI,Oracle,327880
+jpw,jtel Portal WIKI,Nexus RIS Integration,327885
+jpw,jtel Portal WIKI,Functionality of Distribution,328016
+jpw,jtel Portal WIKI,CentOS 7 - Grundinstallation in Azure,328010
+jpw,jtel Portal WIKI,Grundinstallation VM oder Physische Maschine,328009
+jpw,jtel Portal WIKI,Grundinstallation Azure Cloud,328012
+jpw,jtel Portal WIKI,Role PRES,328006
+jpw,jtel Portal WIKI,NFON Connector,327992
+jpw,jtel Portal WIKI,Set up MySQL user for customer statistics access,328046
+jpw,jtel Portal WIKI,CRM URL,328033
+jpw,jtel Portal WIKI,DATA - Move MySQL to new partition and increase size,2162893
+jpw,jtel Portal WIKI,LDAP Debuging Tools,2162902
+jpw,jtel Portal WIKI,Role STORE - Increase File System Size (Redundant DRBD without LVM),2162918
+jpw,jtel Portal WIKI,Import Export Schemes,2162942
+jpw,jtel Portal WIKI,Wireshark Tracing,2162947
+jpw,jtel Portal WIKI,Variable Dump,2163049
+jpw,jtel Portal WIKI,Last Call Information,2163059
+jpw,jtel Portal WIKI,Lightning,2163083
+jpw,jtel Portal WIKI,Swyx PBX - Connect to jtel System,2163113
+jpw,jtel Portal WIKI,Swyx Connector,2163115
+jpw,jtel Portal WIKI,Database Cleaning,2163174
+jpw,jtel Portal WIKI,Role DATA - Cleaner (on the MASTER server that creates the backup),2163180
+jpw,jtel Portal WIKI,SSL/TLS Certificates - OCSP stapling,2163197
+jpw,jtel Portal WIKI,Normal operation,2163238
+jpw,jtel Portal WIKI,FAQ and HowTo / Examples,2163252
+jpw,jtel Portal WIKI,Outbound Call from ACD Client (Full-Client or Mini-Client) - Error message No Free Line,2163254
+jpw,jtel Portal WIKI,REST Query Advanced,2163264
+jpw,jtel Portal WIKI,Target,2163273
+jpw,jtel Portal WIKI,Jump to Target,2163280
+jpw,jtel Portal WIKI,Log Entry,2163294
+jpw,jtel Portal WIKI,Connect PBX Users,2163305
+jpw,jtel Portal WIKI,Report Subscription https,2163325
+jpw,jtel Portal WIKI,CONNRES,2163334
+jpw,jtel Portal WIKI,Update MySQL from 5.6 to 8.0,2163345
+jpw,jtel Portal WIKI,Updates and Upgrades,2163350
+jpw,jtel Portal WIKI,Linux firewalld Configuration for DSCP,2163393
+jpw,jtel Portal WIKI,SMS Receiver API,2163418
+jpw,jtel Portal WIKI,New Repository Locations,2163431
+jpw,jtel Portal WIKI,Connecting PBX Systems,2163457
+jpw,jtel Portal WIKI,Cisco Unified Communications Manager,2163469
+jpw,jtel Portal WIKI,Innovaphone PBX,2163491
+jpw,jtel Portal WIKI,Release 3.14,2163659
+jpw,jtel Portal WIKI,Release 3.12,2163661
+jpw,jtel Portal WIKI,Release 3.11,2163667
+jpw,jtel Portal WIKI,Release 3.10,2163669
+jpw,jtel Portal WIKI,Release 3.15,2163671
+jpw,jtel Portal WIKI,Release 3.16,2163673
+jpw,jtel Portal WIKI,Mini Client APIs,2163828
+jpw,jtel Portal WIKI,In Progress,2163852
+jpw,jtel Portal WIKI,Call Flow and Statistics,2163856
+jpw,jtel Portal WIKI,Outbound Calls (Click to Dial),2163916
+jpw,jtel Portal WIKI,Call Recordings - Save to File Share,2163978
+jpw,jtel Portal WIKI,Save addit. Info and Userdata,2163985
+jpw,jtel Portal WIKI,ASR,2164001
+jpw,jtel Portal WIKI,Lumenvox,2164003
+jpw,jtel Portal WIKI,SSL/TLS Certificates - Connecting to the outside world,2164076
+jpw,jtel Portal WIKI,Release 3.17,2164096
+jpw,jtel Portal WIKI,Role DATA - Backup (on one of the MASTER Servers),2164099
+jpw,jtel Portal WIKI,Update jtel system to 3.18 and later,2164110
+jpw,jtel Portal WIKI,E-Mail Management,2164119
+jpw,jtel Portal WIKI,Troubleshooting - Google GMail Account,2164121
+jpw,jtel Portal WIKI,Confluence Integration,2164123
+jpw,jtel Portal WIKI,Release 3.18,2164130
+jpw,jtel Portal WIKI,Differences (and similarities) between older jboss and newer wildfly webservers,2164137
+jpw,jtel Portal WIKI,SSL/TLS Certificates - Let's Encrypt Certificate,2164152
+jpw,jtel Portal WIKI,Report Subscriptions via Command Line,2164160
+jpw,jtel Portal WIKI,CentOS 8 - Basic Installation as VM with .ISO Image (CentOS8/Win2019),2164189
+jpw,jtel Portal WIKI,CentOS 8 - After OS Installation (CentOS8/Win2019),2164231
+jpw,jtel Portal WIKI,SSL/TLS Certificates - Configure haproxy for several subdomains,17039364
+jpw,jtel Portal WIKI,Release 3.19,17039374
+jpw,jtel Portal WIKI,Home Office Agents: Agents do not hear the customers - Customers do not hear agents - Both sides do not hear each other,17694721
+jpw,jtel Portal WIKI,Dialler Contacts - Import / Export,17695630
+jpw,jtel Portal WIKI,REST,17695642
+jpw,jtel Portal WIKI,Dialler REST API,17695646
+jpw,jtel Portal WIKI,REST API Access,17695649
+jpw,jtel Portal WIKI,Dialler REST API - Dialler Campaign Functions,17695662
+jpw,jtel Portal WIKI,Return Codes,17695663
+jpw,jtel Portal WIKI,Ports that jtel requires / uses through VPN on a customer system,17695672
+jpw,jtel Portal WIKI,Dialler REST API - Data Structures,17695682
+jpw,jtel Portal WIKI,General Functions,17695695
+jpw,jtel Portal WIKI,Dialler REST API - Dialler Contact Functions,17695702
+jpw,jtel Portal WIKI,Postman Collections,17695706
+jpw,jtel Portal WIKI,Release 3.20,17695880
+jpw,jtel Portal WIKI,Input Menu DTMF Variable List,17695898
+jpw,jtel Portal WIKI,Users Profiles Runner,17695910
+jpw,jtel Portal WIKI,CentOS 8.x + Windows Server 2019,17696257
+jpw,jtel Portal WIKI,Basic Installation (CentOS8/Win2019),17696266
+jpw,jtel Portal WIKI,Conventions (CentOS8/Win2019),17696269
+jpw,jtel Portal WIKI,Role WEB (CentOS8/Win2019),17696278
+jpw,jtel Portal WIKI,Role CHAT (CentOS8/Win2019),17696289
+jpw,jtel Portal WIKI,Role DATA (CentOS8/Win2019),17696355
+jpw,jtel Portal WIKI,Role DATA - All Variants (CentOS8/Win2019),17696357
+jpw,jtel Portal WIKI,Role DATA - Master / Master + 2 Slaves - Redundant (CentOS8/Win2019),17696361
+jpw,jtel Portal WIKI,Role DATA - Install PlatformUDPListener (CentOS8/Win2019),17696363
+jpw,jtel Portal WIKI,Role DATA - First Load of System Data (CentOS8/Win2019),17696365
+jpw,jtel Portal WIKI,Role DATA - Start Replication (CentOS8/Win2019),17696367
+jpw,jtel Portal WIKI,Role DATA - Backup (CentOS8/Win2019),17696369
+jpw,jtel Portal WIKI,Role STORE (CentOS8/Win2019),17696391
+jpw,jtel Portal WIKI,Role STORE - Non Redundant (CentOS8/Win2019),17696393
+jpw,jtel Portal WIKI,Role STORE - Install Applications and Data (CentOS8/Win2019),17696400
+jpw,jtel Portal WIKI,Mounting STORE - All Linux except for STORE (CentOS8/Win2019),17696403
+jpw,jtel Portal WIKI,Supervisor - Inbound Since: Common Criteria,17696530
+jpw,jtel Portal WIKI,Windows Base System (CentOS8/Win2019),17696532
+jpw,jtel Portal WIKI,Hosts File - All OS (CentOS8/Win2019),17696543
+jpw,jtel Portal WIKI,Role TEL (CentOS8/Win2019),17696551
+jpw,jtel Portal WIKI,Role DATA - Simple Master / Slave (CentOS8/Win2019),17696614
+jpw,jtel Portal WIKI,Cluster Configuration (CentOS8/Win2019),17696630
+jpw,jtel Portal WIKI,Role DATA - Cleaner (CentOS8/Win2019),17696651
+jpw,jtel Portal WIKI,Role DATA - Create MySQL User for Customer Access (CentOS8/Win2019),17696658
+jpw,jtel Portal WIKI,Supervisor - Wallboard per Group,17696704
+jpw,jtel Portal WIKI,Role LB (CentOS8/Win2019),17696780
+jpw,jtel Portal WIKI,Role LB - All Variants (CentOS8/Win2019),17696789
+jpw,jtel Portal WIKI,Role LB - Non Redundant (CentOS8/Win2019),17696799
+jpw,jtel Portal WIKI,Role LB - haproxy Configuration (CentOS8/Win2019),17696806
+jpw,jtel Portal WIKI,Master Data REST API,17697192
+jpw,jtel Portal WIKI,Master Data REST API - Data Structures,17697196
+jpw,jtel Portal WIKI,Master Data REST API - AcdGroups Functions,17697201
+jpw,jtel Portal WIKI,Master Data REST API - Users Functions,17697206
+jpw,jtel Portal WIKI,AcdEvents REST API,17697211
+jpw,jtel Portal WIKI,AcdEvents REST API - AcdEventStatus and AcdEventType Functions,17697214
+jpw,jtel Portal WIKI,AcdEvents REST API - Data Structures,17697217
+jpw,jtel Portal WIKI,AcdEvents REST API - AcdEvent Functions,17697231
+jpw,jtel Portal WIKI,Role REST (CentOS8/Win2019),17697265
+jpw,jtel Portal WIKI,Improve the VoIP Quality of Service (QoS) by giving a higher priority to SIP packets,17697269
+jpw,jtel Portal WIKI,Release 3.21,17697303
+jpw,jtel Portal WIKI,Release 3.22,17697309
+jpw,jtel Portal WIKI,Role LB - OCSP stapling (CentOS8/Win2019),17697368
+jpw,jtel Portal WIKI,Supervisor - Inbound Since,17697395
+jpw,jtel Portal WIKI,Statistics - Value References,17697427
+jpw,jtel Portal WIKI,Value Reference - AcdGroupEndReasons,17697433
+jpw,jtel Portal WIKI,Chat Report Export,24018945
+jpw,jtel Portal WIKI,ACD Group Information,24018971
+jpw,jtel Portal WIKI,FAQ,24018984
+jpw,jtel Portal WIKI,HowTo / Examples,24018987
+jpw,jtel Portal WIKI,IVR - Introduction,24018996
+jpw,jtel Portal WIKI,IVR and ACD - Simple Whitelist / VIP Routing,24019010
+jpw,jtel Portal WIKI,Dynamic Priority Groups,24019037
+jpw,jtel Portal WIKI,Statistics Report Subscriptions,24019038
+jpw,jtel Portal WIKI,Chat / WhatsApp Connectors,24019040
+jpw,jtel Portal WIKI,Workstations,24019047
+jpw,jtel Portal WIKI,Presence Connectors,24019048
+jpw,jtel Portal WIKI,FTP-Logs,24019054
+jpw,jtel Portal WIKI,Supervisor - Cockpit Variables,24019059
+jpw,jtel Portal WIKI,Role STORE - Redundant (CentOS8/Win2019),24019092
+jpw,jtel Portal WIKI,Redundancy - Installing PCS Cluster (CentOS8/Win2019),24019098
+jpw,jtel Portal WIKI,Role LB - Redundant (CentOS8/Win2019),24019129
+jpw,jtel Portal WIKI,Supervisor - Current Calls,25821192
+jpw,jtel Portal WIKI,Supervisor - Inbound Inboxes,25821253
+jpw,jtel Portal WIKI,Supervisor - Dialler Real Time View,25821268
+jpw,jtel Portal WIKI,Supervisor - Media Events,25821281
+jpw,jtel Portal WIKI,Supervisor - All Agents / Active Agents,25821297
+jpw,jtel Portal WIKI,Presence Connectors - Cisco,25821345
+jpw,jtel Portal WIKI,Presence Connectors - Innovaphone,25821356
+jpw,jtel Portal WIKI,Presence Connectors - Nfon,25821358
+jpw,jtel Portal WIKI,Presence Connectors - Microsoft Teams,25821360
+jpw,jtel Portal WIKI,ACD - How to use the Stair Function effectively,25821412
+jpw,jtel Portal WIKI,Workflow Connectors,25821465
+jpw,jtel Portal WIKI,jtel ACD MiniClient,25821531
+jpw,jtel Portal WIKI,Install MiniClient Version >= 2.27,25821539
+jpw,jtel Portal WIKI,MiniClient Settings,25821542
+jpw,jtel Portal WIKI,Download Mini-Client,25821544
+jpw,jtel Portal WIKI,Automatic login with Mini Client and Workstation Name,25821549
+jpw,jtel Portal WIKI,Embedding in 3rd Party Applications,25821554
+jpw,jtel Portal WIKI,Hotkey Functions,25821556
+jpw,jtel Portal WIKI,IVR - Prompt Recording by Telephone,25821648
+jpw,jtel Portal WIKI,IVR - Input and Verification of a Customer Number,25821797
+jpw,jtel Portal WIKI,Supervisor - Help Requests,25821841
+jpw,jtel Portal WIKI,Dynamic Priority Groups - Principle of Operation,25821852
+jpw,jtel Portal WIKI,Dynamic Priority Groups - Editing,25821883
+jpw,jtel Portal WIKI,Dynamic Priority Groups - Supervisor,25821887
+jpw,jtel Portal WIKI,Supervisor - Media History,25821964
+jpw,jtel Portal WIKI,Media Events and Types,25821966
+jpw,jtel Portal WIKI,Chat / WhatsApp,25822201
+jpw,jtel Portal WIKI,ACD - Working As System Administrator,25822222
+jpw,jtel Portal WIKI,Agent Status as System Administrator,25822238
+jpw,jtel Portal WIKI,Recording Opt-Out,25822261
+jpw,jtel Portal WIKI,Re-Enter ACD,25822272
+jpw,jtel Portal WIKI,Debian Linux + Windows Server 2019,25822292
+jpw,jtel Portal WIKI,Debian - Basic OS Installation from ISO (Debian/Win2019),25822295
+jpw,jtel Portal WIKI,Debian - After Basic OS Installation (Debian/Win2019),25822337
+jpw,jtel Portal WIKI,Hosts File - All OS (Debian/Win2019),25822345
+jpw,jtel Portal WIKI,Basic Installation (Debian/Win2019),25822364
+jpw,jtel Portal WIKI,Conventions (Debian/Win2019),25822366
+jpw,jtel Portal WIKI,Role STORE (Debian/Win2019),25822371
+jpw,jtel Portal WIKI,Role STORE - Non Redundant (Debian/Win2019),25822374
+jpw,jtel Portal WIKI,Role STORE - Install Applications and Data (Debian/Win2019),25822380
+jpw,jtel Portal WIKI,Mounting STORE - All Linux except for STORE (Debian/Win2019),25822384
+jpw,jtel Portal WIKI,Role DATA (Debian/Win2019),25822409
+jpw,jtel Portal WIKI,Role DATA - All Variants (Debian/Win2019),25822412
+jpw,jtel Portal WIKI,Role DATA - Simple Master / Slave (Debian/Win2019),25822415
+jpw,jtel Portal WIKI,Role DATA - Master / Master + 2 Slaves - Redundant (Debian/Win2019),25822418
+jpw,jtel Portal WIKI,Role DATA - Install PlatformUDPListener (Debian/Win2019),25822421
+jpw,jtel Portal WIKI,Role DATA - Start Replication (Debian/Win2019),25822424
+jpw,jtel Portal WIKI,Role DATA - First Load of System Data (Debian/Win2019),25822427
+jpw,jtel Portal WIKI,Role DATA - Backup and Cleaner (Debian/Win2019),25822430
+jpw,jtel Portal WIKI,Role DATA - Create MySQL User for Customer Access (Debian/Win2019),25822436
+jpw,jtel Portal WIKI,Cluster Configuration (Debian/Win2019),25822451
+jpw,jtel Portal WIKI,Role WEB (Debian/Win2019),25822463
+jpw,jtel Portal WIKI,Role TEL (Debian/Win2019),25822483
+jpw,jtel Portal WIKI,Windows Base System (Debian/Win2019),25822526
+jpw,jtel Portal WIKI,Release 3.23,25822582
+jpw,jtel Portal WIKI,Dossier,25822606
+jpw,jtel Portal WIKI,Role LB (Debian/Win2019),25822638
+jpw,jtel Portal WIKI,Role LB - All Variants (Debian/Win2019),25822642
+jpw,jtel Portal WIKI,Role LB - Non Redundant (Debian/Win2019),25822646
+jpw,jtel Portal WIKI,Role LB - Redundant (Debian/Win2019),25822650
+jpw,jtel Portal WIKI,Role LB - haproxy Configuration (Debian/Win2019),25822654
+jpw,jtel Portal WIKI,Agent Status - Master Data,25822706
+jpw,jtel Portal WIKI,Agentenstatus - Tab Restricted Groups,25822718
+jpw,jtel Portal WIKI,Agentenstatus - Tab Skill-Adjustment,25822725
+jpw,jtel Portal WIKI,Working As Client Administrator,25822770
+jpw,jtel Portal WIKI,Role REST (Debian/Win2019),25823414
+jpw,jtel Portal WIKI,SAP Integration,25823459
+jpw,jtel Portal WIKI,SAP - Introduction,25823461
+jpw,jtel Portal WIKI,SAP - MiniClient Widget Integration,25823463
+jpw,jtel Portal WIKI,SAP - Portal Configuration,25823465
+jpw,jtel Portal WIKI,IVR Object - SAP getCallerInformation,25823467
+jpw,jtel Portal WIKI,SAP - getCallerInformation,25823495
+jpw,jtel Portal WIKI,SAP - onClickToDial,25823533
+jpw,jtel Portal WIKI,Agent Status - Tab Translations,25823550
+jpw,jtel Portal WIKI,Service Numbers,25823556
+jpw,jtel Portal WIKI,ACD Menü - Aggregation Groups,25824157
+jpw,jtel Portal WIKI,Client Attributes,25824166
+jpw,jtel Portal WIKI,Contacts,25824178
+jpw,jtel Portal WIKI,Historical Reporting,25826117
+jpw,jtel Portal WIKI,AcdB - AcdGetGroupCalls_GroupServiceNumber,25826124
+jpw,jtel Portal WIKI,Statistics,25826131
+jpw,jtel Portal WIKI,ACDB - ACD Group KPIs,25826133
+jpw,jtel Portal WIKI,AcdB - AcdGetAgentCalls_Group,25826135
+jpw,jtel Portal WIKI,AcdB - AcdGetAgentCalls_GroupServiceNumber,25826137
+jpw,jtel Portal WIKI,Statistics - Reports,25826139
+jpw,jtel Portal WIKI,ACD-G-001 - ACD Groups Report 1,25826141
+jpw,jtel Portal WIKI,AcdB - AcdGetInServiceCallsByParam_GroupServiceNumber,25826143
+jpw,jtel Portal WIKI,User Data - Categories,25826154
+jpw,jtel Portal WIKI,jtel E-Mail Management,25826157
+jpw,jtel Portal WIKI,Contact Lists,25826159
+jpw,jtel Portal WIKI,Departments,25826193
+jpw,jtel Portal WIKI,Supervisor - Dynamic Priority Groups,25826218
+jpw,jtel Portal WIKI,Create Group,25826221
+jpw,jtel Portal WIKI,Redundancy - Installing PCS Cluster (Debian/Win2019),25826369
+jpw,jtel Portal WIKI,Role STORE - Redundant (Debian/Win2019),25826377
+jpw,jtel Portal WIKI,AcdB - AcdAverageNumberAgents_Group,25826433
+jpw,jtel Portal WIKI,AcdB - AcdGetAnswerDurationMax_GroupServiceNumber,25826444
+jpw,jtel Portal WIKI,AcdB - AcdGetCallbackVoiceMailBooked_GroupServiceNumber,25826447
+jpw,jtel Portal WIKI,IVR Statistic Markers,25826448
+jpw,jtel Portal WIKI,Value Reference - AcdGroupActionTypes,25826456
+jpw,jtel Portal WIKI,Value Reference - AcdGroupCheckPoints,25826475
+jpw,jtel Portal WIKI,Value Reference - Action Codes,25826480
+jpw,jtel Portal WIKI,Value Reference - Conference Roles,25826484
+jpw,jtel Portal WIKI,Value Reference - Languages,25826487
+jpw,jtel Portal WIKI,Value Reference - CONNRES,25826491
+jpw,jtel Portal WIKI,Value Reference - CauseCodes,25826495
+jpw,jtel Portal WIKI,Value Reference - AcdEventTypes,25826498
+jpw,jtel Portal WIKI,Value Reference - AcdEventStatus,25826501
+jpw,jtel Portal WIKI,Value Reference - AcdEventSpoolStatus,25826504
+jpw,jtel Portal WIKI,Value Reference - AcdEventSpoolTypes,25826506
+jpw,jtel Portal WIKI,Value Reference - AcdEventSpoolErrorCodes,25826508
+jpw,jtel Portal WIKI,Value Reference - AcdCallStates,25826511
+jpw,jtel Portal WIKI,Value Reference - AcdAgentStatus,25826514
+jpw,jtel Portal WIKI,Data Relations,25826521
+jpw,jtel Portal WIKI,AcdB - AcdGetAgentAnsweredCalls_Group,25826541
+jpw,jtel Portal WIKI,Set Statistics-Markers (Variable),25826547
+jpw,jtel Portal WIKI,Query Statistics-Marker,25826564
+jpw,jtel Portal WIKI,AcdB - AcdGetAgentBusyCalls_Group,25826571
+jpw,jtel Portal WIKI,AcdB - AcdGetAgentNoAnsweredCalls_Group,25826574
+jpw,jtel Portal WIKI,Query Statistics-Marker (Variable),25826593
+jpw,jtel Portal WIKI,AcdB - AcdGetAgentTotalTimeCalls_Group,25826597
+jpw,jtel Portal WIKI,AcdB - AcdGetCallBackCalls_Group,25826602
+jpw,jtel Portal WIKI,AcdB - AcdGetCallDuration_GroupServiceNumber,25826622
+jpw,jtel Portal WIKI,AcdB - AcdGetCallDurationMax_GroupServiceNumber,25826624
+jpw,jtel Portal WIKI,AcdB - AcdGetCallerHangupCallsByGroupEndReason_GroupServiceNumber,25826627
+jpw,jtel Portal WIKI,AcdB - AcdGetCallerHangupCallsDuration_GroupServiceNumber,25826630
+jpw,jtel Portal WIKI,AcdB - AcdGetCallerHangupCallsDurationMax_GroupServiceNumber,25826644
+jpw,jtel Portal WIKI,AcdB - AcdGetCalls_Group,25826653
+jpw,jtel Portal WIKI,AcdB - AcdGetHangupsBeforeQueue_Group,25826661
+jpw,jtel Portal WIKI,AcdB - AcdGetHangupsQueue_Group,25826663
+jpw,jtel Portal WIKI,AcdB - AcdGetInServiceCallsByParam_Group,25826665
+jpw,jtel Portal WIKI,AcdB - AcdGetInServiceCallsByParam_Group_QueueStart,25826669
+jpw,jtel Portal WIKI,AcdB - AcdGetInTimeHangupCalls_Group,25826671
+jpw,jtel Portal WIKI,AcdB - AcdGetInTimeHangupCallsByParam_GroupServiceNumber,25826674
+jpw,jtel Portal WIKI,AcdB - AcdGetParallelCallsMax_Group,25826677
+jpw,jtel Portal WIKI,AcdB - AcdGetPostCallCount_Group,25826679
+jpw,jtel Portal WIKI,AcdB - AcdGetPostCallCount_GroupServiceNumber,25826681
+jpw,jtel Portal WIKI,AcdB - AcdGetPostCallCounter_Group,25826684
+jpw,jtel Portal WIKI,AcdB - AcdGetPostCallDuration_GroupServiceNumber,25826686
+jpw,jtel Portal WIKI,AcdB - AcdGetPostCallTotalTime_Group,25826688
+jpw,jtel Portal WIKI,AcdB - AcdGetQueueClosedCallsByGroupEndReason_GroupServiceNumber,25826690
+jpw,jtel Portal WIKI,AcdB - AcdGetQueueFullCallsByGroupEndReason_GroupServiceNumber,25826692
+jpw,jtel Portal WIKI,AcdB - AcdGetQueueLeaveByDtmfCallsGroupEndReason_GroupServiceNumber,25826694
+jpw,jtel Portal WIKI,AcdB - AcdGetQueueLeaveOtherCallsByGroupEndReason_Group,25826696
+jpw,jtel Portal WIKI,AcdB - AcdGetQueueLeaveVoiceMailCallsByGroupEndReason_Group,25826698
+jpw,jtel Portal WIKI,AcdB - AcdGetQueueNoImmediateDiestributelCalls_Group,25826700
+jpw,jtel Portal WIKI,AcdB - AcdGetQueueTimeoutCallsByGroupEndReason_GroupServiceNumber,25826702
+jpw,jtel Portal WIKI,AcdB - AcdGetQueueTotalCalls_Group,25826704
+jpw,jtel Portal WIKI,AcdB - AcdGetRingingDuration_Group,25826706
+jpw,jtel Portal WIKI,AcdB - AcdGetRingingDurationAvg_Group,25826710
+jpw,jtel Portal WIKI,AcdB - AcdGetRingingIncomingDuration_Group,25826712
+jpw,jtel Portal WIKI,AcdB - AcdGetRingingIncomingDurationAvg_Group,25826714
+jpw,jtel Portal WIKI,AcdB - AcdGetRuleBeforeQueueOthersCallsByGroupEndReason_Group,25826716
+jpw,jtel Portal WIKI,AcdB - AcdGetRuleBeforeQueueVoiceMailCallsByGroupEndReason_Group,25826718
+jpw,jtel Portal WIKI,AcdB - AcdGetShortHangupsQueue_Group,25826720
+jpw,jtel Portal WIKI,AcdB - AcdGetSystemHangupCallsByGroupEndReason_GroupServiceNumber,25826722
+jpw,jtel Portal WIKI,AcdB - AcdGetTotalAgents_Group,25826724
+jpw,jtel Portal WIKI,AcdB - AcdGetTotalOtherCalls_Group,25826726
+jpw,jtel Portal WIKI,AcdB - AcdGetTotalServiceCalls_Group,25826728
+jpw,jtel Portal WIKI,AcdB - AcdGetTotalTimeHangupCalls_Group,25826730
+jpw,jtel Portal WIKI,AcdB - AcdGetTranferredCalls_Group,25826732
+jpw,jtel Portal WIKI,AcdB - AcdGetTransferredCallsByAgent_GroupServiceNumber,25826734
+jpw,jtel Portal WIKI,AcdB - AcdGetVoiceMailCalls_Group,25826736
+jpw,jtel Portal WIKI,AcdB - AcdGetWaitingTimeLongHangup_Group,25826738
+jpw,jtel Portal WIKI,AcdB - AcdGetWaitingTimeTotalAnswered_Group,25826740
+jpw,jtel Portal WIKI,Prompt Containers or International Call Flows made Easy,35028993
+jpw,jtel Portal WIKI,Switch Service-Number,35029015
+jpw,jtel Portal WIKI,Switch Service-Number (Variable),35029020
+jpw,jtel Portal WIKI,Language Change,35029040
+jpw,jtel Portal WIKI,Value Reference - AcdLoginType / LoginActionCode,35029047
+jpw,jtel Portal WIKI,ACDB - ACD Group Service Number KPIs,35029060
+jpw,jtel Portal WIKI,AcdB - AcdGetAgentAutoLogOff_Group,35029063
+jpw,jtel Portal WIKI,AcdB - AcdGetAgentAutoLogOffBusy_Group,35029065
+jpw,jtel Portal WIKI,AcdB - AcdGetAgentAutoLogOffDaemon_Group,35029067
+jpw,jtel Portal WIKI,AcdB - AcdGetAgentAutoLogOffNoAnswer_Group,35029069
+jpw,jtel Portal WIKI,AcdB - AcdGetAgentLoginCount_Group,35029071
+jpw,jtel Portal WIKI,AcdB - AcdGetAgentLoginTime_Group,35029073
+jpw,jtel Portal WIKI,AcdB - AcdGetAgentLoginTimeMax_Group,35029075
+jpw,jtel Portal WIKI,AcdB - AcdGetAnsweredCallsAgent_Group,35029084
+jpw,jtel Portal WIKI,AcdB - AcdGetBreakingCountAgent_Group,35029086
+jpw,jtel Portal WIKI,AcdB - AcdGetBreakingDurationAgent_Group,35029088
+jpw,jtel Portal WIKI,AcdB - AcdGetBreakingDurationAgentMax_Group,35029090
+jpw,jtel Portal WIKI,AcdB - AcdGetBusyCallsAgent_Group,35029092
+jpw,jtel Portal WIKI,AcdB - AcdGetEnquiryCountAgent_Group,35029094
+jpw,jtel Portal WIKI,AcdB - AcdGetEnquiryDurationAgent_Group,35029096
+jpw,jtel Portal WIKI,AcdB - AcdGetEnquiryDurationAgentMax_Group,35029098
+jpw,jtel Portal WIKI,AcdB - AcdGetGroupCalls_Agent,35029100
+jpw,jtel Portal WIKI,AcdB - AcdGetNoAnswerCallsAgent_Group,35029102
+jpw,jtel Portal WIKI,AcdB - AcdGetPostCallCountAgent_Group,35029104
+jpw,jtel Portal WIKI,AcdB - AcdGetPostCallDurationAgent_Group,35029106
+jpw,jtel Portal WIKI,AcdB - AcdGetPostCallDurationAgentMax_Group,35029108
+jpw,jtel Portal WIKI,AcdB - AcdGetRingingCalls_Group,35029110
+jpw,jtel Portal WIKI,AcdB - AcdGetRingingDurationAgent_Group,35029112
+jpw,jtel Portal WIKI,AcdB - AcdGetRingingDurationMaxAgent_Group,35029114
+jpw,jtel Portal WIKI,AcdB - AcdGetTalkingDurationAgent_Group,35029116
+jpw,jtel Portal WIKI,AcdB - AcdGetTalkingDurationAgentMax_Group,35029118
+jpw,jtel Portal WIKI,Service Number Statistics,35029996
+jpw,jtel Portal WIKI,Release 3.25,35030043
+jpw,jtel Portal WIKI,Release 3.24,35030051
+jpw,jtel Portal WIKI,ACD-A-001 - ACD Agent Calls Report 1,36241410
+jpw,jtel Portal WIKI,Statistics - Table References,36241414
+jpw,jtel Portal WIKI,Table Reference - StatisticsPartA (A),36241417
+jpw,jtel Portal WIKI,Table Reference - AcdStatisticsPartB (AcdB),36241419
+jpw,jtel Portal WIKI,Table Reference - StatisticsPartB (B),36241421
+jpw,jtel Portal WIKI,Table Reference - StatisticsPartO,36241424
+jpw,jtel Portal WIKI,ACD-A-002 - ACD Agent Calls Report 2 and Variants,36241427
+jpw,jtel Portal WIKI,ACD-A-010 - ACD Automatic Logout Report,36241432
+jpw,jtel Portal WIKI,ACD-A-006 - ACD Agent Report 2,36241464
+jpw,jtel Portal WIKI,ACD-A-003 - ACD Agent Performance Report,36241468
+jpw,jtel Portal WIKI,ACD-A-004 - ACD Agent Performance Report Current Agent,36241474
+jpw,jtel Portal WIKI,ACD-A-005 - ACD Agent Report 1,36241483
+jpw,jtel Portal WIKI,B - ACD Agents KPIs,36241492
+jpw,jtel Portal WIKI,B - AcdGetACDCalls_Agent,36241494
+jpw,jtel Portal WIKI,B - AcdGetACDTakenCalls_Agent,36241496
+jpw,jtel Portal WIKI,B - AcdGetACDCallsDuration_Agent,36241499
+jpw,jtel Portal WIKI,B - AcdGetACDCallsDurationAvg_Agent,36241504
+jpw,jtel Portal WIKI,B - AcdGetACDOutdialCalls_Agent,36241506
+jpw,jtel Portal WIKI,B - AcdGetACDOutdialTakenCalls_Agent,36241508
+jpw,jtel Portal WIKI,B - AcdGetACDOutdialCallsDuration_Agent,36241510
+jpw,jtel Portal WIKI,B - AcdGetACDOutdialCallsDurationAvg_Agent,36241512
+jpw,jtel Portal WIKI,B - AcdGetACDTransferAgentCalls_Agent,36241514
+jpw,jtel Portal WIKI,B - AcdGetACDTransferAgentTakenCalls_Agent,36241516
+jpw,jtel Portal WIKI,B - AcdGetACDTransferAgentCallsDuration_Agent,36241518
+jpw,jtel Portal WIKI,B - AcdGetACDTransferAgentCallsDurationAvg_Agent,36241521
+jpw,jtel Portal WIKI,B - AcdGetPostCalls_Agent,36241523
+jpw,jtel Portal WIKI,B - AcdGetPostTakenCalls_Agent,36241525
+jpw,jtel Portal WIKI,B - AcdGetPostCallDuration_Agent,36241527
+jpw,jtel Portal WIKI,B - AcdGetPostCallDurationAvg_Agent,36241529
+jpw,jtel Portal WIKI,ACD-A-007 - ACD Agent Report 3,36241531
+jpw,jtel Portal WIKI,AcdB - AcdGetNotInServiceCallsByParam_GroupServiceNumber,36241562
+jpw,jtel Portal WIKI,AcdB - AcdGetNotInTimeHangupCallsByParam_GroupServiceNumber,36241590
+jpw,jtel Portal WIKI,AcdB - AcdGetAnswerDuration_GroupServiceNumber,36241597
+jpw,jtel Portal WIKI,PCS Cluster Timeout,36241609
+jpw,jtel Portal WIKI,ACD-G-002 - ACD Groups Report 3 and variants,36241614
+jpw,jtel Portal WIKI,ACD-G-003 - ACD Groups Report 4 and variant,36241623
+jpw,jtel Portal WIKI,Statistics - KPIs,36241630
+jpw,jtel Portal WIKI,Table Reference - AcdCallNotes,36241636
+jpw,jtel Portal WIKI,Table Reference - AcdStatisticsEventTransactionCodes,36241638
+jpw,jtel Portal WIKI,Table Reference - AcdStatisticsLogin,36241640
+jpw,jtel Portal WIKI,Table Reference - AcdStatisticsPartC,36241642
+jpw,jtel Portal WIKI,Table Reference - AcdStatisticsPartD,36241644
+jpw,jtel Portal WIKI,Table Reference - AcdStatisticsTransactionCodes,36241646
+jpw,jtel Portal WIKI,Table Reference - ConfStatsPartA,36241649
+jpw,jtel Portal WIKI,Table Reference - ConfStatsPartB,36241651
+jpw,jtel Portal WIKI,Table Reference - ConfStatsPartI,36241653
+jpw,jtel Portal WIKI,Table Reference - StatisticsClick2DialNoPortal,36241655
+jpw,jtel Portal WIKI,Table Reference - StatisticsDiallerCampaigns,36241657
+jpw,jtel Portal WIKI,Table Reference - StatisticsPartIVR,36241659
+jpw,jtel Portal WIKI,Table Reference - StatisticsPartK <Deprecated>,36241661
+jpw,jtel Portal WIKI,Table Reference - StatisticsPartR1,36241663
+jpw,jtel Portal WIKI,Table Reference - StatisticsPartR2,36241665
+jpw,jtel Portal WIKI,Table Reference - StatisticsPartT,36241668
+jpw,jtel Portal WIKI,Table Reference - StatisticsPartTI,36241670
+jpw,jtel Portal WIKI,Table Reference - StatisticsPartZ,36241672
+jpw,jtel Portal WIKI,SalesForce - Troubleshooting OAUTH Problems,36241677
+jpw,jtel Portal WIKI,Statistics - Not Ready To Publish,36241694
+jpw,jtel Portal WIKI,ACD-TAC-002 - ACD Transaction Code Report 2,36241761
+jpw,jtel Portal WIKI,A - Service Number KPIs,36241764
+jpw,jtel Portal WIKI,A - AcdGetIvrStatisticsMarkers_Count,36241767
+jpw,jtel Portal WIKI,A - AcdGetIvrStatisticsMarkers_CountCalls,36241770
+jpw,jtel Portal WIKI,A - AcdGetCalls_ServiceNumbers,36241774
+jpw,jtel Portal WIKI,A - AcdGetParallelCallsMax_ServiceNumbers,36241776
+jpw,jtel Portal WIKI,A - AcdGetPostCallCount_ServiceNumbers,36241778
+jpw,jtel Portal WIKI,A - AcdGetTotalServiceCalls_ServiceNumbers,36241780
+jpw,jtel Portal WIKI,A - AcdGetInServiceCalls_ServiceNumbers,36241782
+jpw,jtel Portal WIKI,A - AcdGetNotInServiceCalls_ServiceNumbers,36241784
+jpw,jtel Portal WIKI,A - AcdGetTotalTimeHangupCalls_ServiceNumbers,36241786
+jpw,jtel Portal WIKI,A - AcdGetInTimeHangupCalls_ServiceNumbers,36241789
+jpw,jtel Portal WIKI,A - AcdGetNotInTimeHangupCalls_ServiceNumbers,36241791
+jpw,jtel Portal WIKI,A - AcdGetRingingIncomingDuration_ServiceNumbers,36241793
+jpw,jtel Portal WIKI,A - AcdGetRingingIncomingDurationAvg_ServiceNumbers,36241795
+jpw,jtel Portal WIKI,A - AcdGetRingingAgentDuration_ServiceNumbers,36241797
+jpw,jtel Portal WIKI,A -AcdGetRingingAgentDurationAvg_ServiceNumbers,36241799
+jpw,jtel Portal WIKI,A - AcdGetTotalAgents_ServiceNumbers,36241801
+jpw,jtel Portal WIKI,A - AcdGetCallBackCalls_ServiceNumbers,36241803
+jpw,jtel Portal WIKI,A - AcdGetVoiceMailCalls_ServiceNumbers,36241805
+jpw,jtel Portal WIKI,A - AcdGetHangupsBeforeQueue_ServiceNumbers,36241807
+jpw,jtel Portal WIKI,A - AcdGetHangupsQueue_ServiceNumbers,36241809
+jpw,jtel Portal WIKI,A - AcdGetTotalOtherCalls_ServiceNumbers,36241811
+jpw,jtel Portal WIKI,ACD-S-001 - Service Numbers Report 1 (Inbound and Outbound),36241813
+jpw,jtel Portal WIKI,IVR-001 - IVR Statistics Report,36241829
+jpw,jtel Portal WIKI,Role CHAT (Debian/Win2019),36241846
+jpw,jtel Portal WIKI,ACD-TAC-003 - ACD Transaction Code Report 3,36241869
+jpw,jtel Portal WIKI,DIAL-001 - Dialler Campaigns Itemised Calls Report,36241876
+jpw,jtel Portal WIKI,DIAL-002 - Dialler Campaigns Results Report,36241886
+jpw,jtel Portal WIKI,System Health Check,36241898
+jpw,jtel Portal WIKI,ACD-A-011 - Login / Logout Report,36241907
+jpw,jtel Portal WIKI,ACD-A-008 - Agents Itemised Calls Details (Inbound and Outbound),36241919
+jpw,jtel Portal WIKI,IVR - Variables in Service Number Parameters,36241924
+jpw,jtel Portal WIKI,Chat Protocol,36242124
+jpw,jtel Portal WIKI,ACD-001 - ACD Incoming Calls Report,36242135
+jpw,jtel Portal WIKI,ACD-003 - Outbound Statistics Report,36242141
+jpw,jtel Portal WIKI,AcdB - AcdGetErrorHangupCallsByGroupEndReason_GroupServiceNumber,36242145
+jpw,jtel Portal WIKI,Supervisor,36242164
+jpw,jtel Portal WIKI,Menu Number Management - Country Codes,36242245
+jpw,jtel Portal WIKI,Global Black List,36242252
+jpw,jtel Portal WIKI,Holidays,36242255
+jpw,jtel Portal WIKI,ACD-G-004 - ACD Groups Report 2,36242575
+jpw,jtel Portal WIKI,System Settings - TTS Engines,36242577
+jpw,jtel Portal WIKI,ACD-G-005 - ACD Groups Report 5,36242610
+jpw,jtel Portal WIKI,ACD-G-012 - ACD Groups Report 7,36242629
+jpw,jtel Portal WIKI,ACD-TAC-005 - ACD Transaction Codes Overview,39550977
+jpw,jtel Portal WIKI,ACD-TAC-006 - ACD Transaction Codes Sums Evaluation,39550979
+jpw,jtel Portal WIKI,ACD-A-015 - ACD Agent Report 4,39944203
+jpw,jtel Portal WIKI,ACD-A-013 - ACD Statistics Agent Calls,39944205
+jpw,jtel Portal WIKI,ACD-S-002 - Service Numbers Report 2 (Inbound ACD) and variant,39944378
+jpw,jtel Portal WIKI,ACD-S-004 - Service Numbers Report 5 (Inbound Call Counters Grouped by Billing Number),39944382
+jpw,jtel Portal WIKI,ACD-S-005 - Service Numbers Report 6 (Inbound Calls and Availability Grouped by Billing Number),39944384
+jpw,jtel Portal WIKI,AcdB - AcdGetMaxDurationTimeInQueue_GroupServiceNumber,39944400
+jpw,jtel Portal WIKI,AcdB - AcdGetMaxDurationTimeInQueueUntilAbort_GroupServiceNumber,39944403
+jpw,jtel Portal WIKI,Statistics - Ready To Publish,39944412
+jpw,jtel Portal WIKI,B - AcdGetAgentCalls_ServiceNumbers,39944421
+jpw,jtel Portal WIKI,Redundanz,39944429
+jpw,jtel Portal WIKI,Windows Defender - Performance and Functional Problems on Telephony Server,39944439
+jpw,jtel Portal WIKI,Update 8-Server to Release 5.23.17 and above,39944447
+jpw,jtel Portal WIKI,Teams - Presence Connector funktionert nicht ordnungsgemäß,39944452
+jpw,jtel Portal WIKI,Compressed Stats - CompressedA,39944500
+jpw,jtel Portal WIKI,Compressed Stats - CompressedU,39944502
+jpw,jtel Portal WIKI,Compressed Stats - CompressedUA,39944508
+jpw,jtel Portal WIKI,AcdB - AcdGetDurationEdit_GroupServiceNumber,39944519
+jpw,jtel Portal WIKI,ACD-G-013 - ACD Groups Report 8,39944525
+jpw,jtel Portal WIKI,ACD-G-014 - ACD Groups Report 9,39944541
+jpw,jtel Portal WIKI,ACD-G-015 - ACD Groups Report 10,39944548
+jpw,jtel Portal WIKI,ACD-G-011 - ACD Groups Report 6,39944576
+jpw,jtel Portal WIKI,Supervisor - Wallboard,39944624
+jpw,jtel Portal WIKI,Display of PBX Telephone Status delayed,39944944
+jpw,jtel Portal WIKI,IVR-003 - IVR Statistics Report 2,39944980
+jpw,jtel Portal WIKI,Installation -> Required Internet Access,39944992
+jpw,jtel Portal WIKI,Time Synchronization not working,39944995
+jpw,jtel Portal WIKI,AcdEvents cleaner configuration - Andrey,39944997
+jpw,jtel Portal WIKI,System Settings - Presence Connectors,39945022
+jpw,jtel Portal WIKI,CRM+ Integration,39945221
+jpw,jtel Portal WIKI,CRM+ First Steps,39945224
+jpw,jtel Portal WIKI,CRM+ Configuration in the jtel Portal,39945236
+jpw,jtel Portal WIKI,CRM+ Querying,39945244
+jpw,jtel Portal WIKI,IVR Object - CRM+ Query,39945262
+jpw,jtel Portal WIKI,Working as a system administrator - Menu "User Data" - "User Master Data",39945440
+jpw,jtel Portal WIKI,Working as a system administrator - Menu "User Data" - "Users",39945448
+jpw,jtel Portal WIKI,Working as a system administrator - Menu "User Data" - "Clients",39945506
+jpw,jtel Portal WIKI,Build an Example Self-Service,39945575
+jpw,jtel Portal WIKI,Incoming Call Processing,39945663
+jpw,jtel Portal WIKI,Control Functions REST API,39945766
+jpw,jtel Portal WIKI,Control Functions - User,39945770
+jpw,jtel Portal WIKI,Release 3.26,39945776
+jpw,jtel Portal WIKI,ACD-006 - ACD Statistics One Line Call Details,39945806
+jpw,jtel Portal WIKI,ACD Group - Parameters,39945810
+jpw,jtel Portal WIKI,ACD Group Parameters - REST Calls (Telephony Events),39945828
+jpw,jtel Portal WIKI,Routing,39945857
+jpw,jtel Portal WIKI,MiniClient Panel Application,47710210
+jpw,jtel Portal WIKI,Signaling - Manual Callback Media Events,48300142
+jpw,jtel Portal WIKI,Install JTEL_UDF_LIB Plugin,48300749
+jpw,jtel Portal WIKI,Release 3.27,52527281
+jpw,jtel Portal WIKI,Wait,52528113
+jpw,jtel Portal WIKI,Microsoft Teams,52528176
+jpw,jtel Portal WIKI,Teams - jtel Portal Setup,52528178
+jpw,jtel Portal WIKI,Teams - Presence Status Connector,52528180
+jpw,jtel Portal WIKI,Processing of Emails by Agents,52528243
+jpw,jtel Portal WIKI,Ringing,52528252
+jpw,jtel Portal WIKI,Group Rule - Overview ACD callback and voicemail,52528324
+jpw,jtel Portal WIKI,Copying existing jtel report into a custom report,52528331
+jpw,jtel Portal WIKI,Synonyms,52528343
+jpw,jtel Portal WIKI,Release 3.28,52528417
+jpw,jtel Portal WIKI,Update from Release 3.23 and above,52528426
+jpw,jtel Portal WIKI,Sitemap,57311250
+jpw,jtel Portal WIKI,CockpitVariables REST API,57311278
+jpw,jtel Portal WIKI,Cockpit Variables REST API - Data Structures,57311280
+jpw,jtel Portal WIKI,Cockpit Variables REST API - CockpitVariables Functions,57311282
+jpw,jtel Portal WIKI,Update wildfly Server,57311286
+jpw,jtel Portal WIKI,ACD Agent Home - Call Transfer,57311349
+jpw,jtel Portal WIKI,OS Updates,57311387
+jpw,jtel Portal WIKI,Call-Recording: "One way Recording",57311393
+jpw,jtel Portal WIKI,Call Recording OPT IN,57311401
+jpw,jtel Portal WIKI,Maximum Outbound Ring Duration - Parameters,57311425
+jpw,jtel Portal WIKI,jtel Starface V6.2 Connector - HTTPS Configuration,57311503
+jpw,jtel Portal WIKI,R-S-001 - Rawdata - Service Numbers Itemised Call Details,57311748
+jpw,jtel Portal WIKI,Monitoring,57311779
+jpw,jtel Portal WIKI,Virus Scanner - Required Exceptions,57311825
+jpw,jtel Portal WIKI,IPsec VPN,57311851
+jpw,jtel Portal WIKI,IPSec VPN Setting-Requirements,57311925
+jpw,jtel Portal WIKI,Starface,57311960
+jpw,jtel Portal WIKI,Starface - General Information,57311962
+jpw,jtel Portal WIKI,Starface V6.2 Connector,57311969
+jpw,jtel Portal WIKI,createCallback,57311994
+jpw,jtel Portal WIKI,Sample Apex Class createCallback,57311998
+jpw,jtel Portal WIKI,ACD Group - Parameters - REST Calls (Create Callback),57312013
+jpw,jtel Portal WIKI,Starface Glossary,57312032
+jpw,jtel Portal WIKI,APIs - REST - General functions - Languages,57312143
+jpw,jtel Portal WIKI,APIs - REST - General functions - Acd Groups,57312151
+jpw,jtel Portal WIKI,APIs - REST - General functions - Service Numbers,57312157
+jpw,jtel Portal WIKI,APIs - REST - Acd - Agent status,57312167
+jpw,jtel Portal WIKI,APIs - REST - Calls,57312176
+jpw,jtel Portal WIKI,Shutdown/Startup Procedure - Small V1,57312208
+jpw,jtel Portal WIKI,Shutdown/Startup Procedure - Small V2,57312210
+jpw,jtel Portal WIKI,Shutdown/Startup Procedure - Small V3,57312212
+jpw,jtel Portal WIKI,Shutdown/Startup Procedure - Medium V1,57312214
+jpw,jtel Portal WIKI,Shutdown/Startup Procedure - Medium V2,57312216
+jpw,jtel Portal WIKI,Shutdown/Startup Procedure - Large V1 - Redundant Databases,57312218
+jpw,jtel Portal WIKI,Shutdown/Startup Procedure - Large V2 - Redundant Databases + Load Balancing,57312220
+jpw,jtel Portal WIKI,Shutdown/Startup Procedure - Large V3 - Redundant Databases + Load Balancing + Storage,57312222
+jpw,jtel Portal WIKI,Shutdown/Startup Procedure - Redundancy - Controlled Failover and Failback,57312253
+jpw,jtel Portal WIKI,Required Port Configuration,57312279
+jpw,jtel Portal WIKI,Email management within the contact center,57312311
+jpw,jtel Portal WIKI,Copy from an existing Report to customize my own Reports,57312320
+jpw,jtel Portal WIKI,What happens when all Resources (SIP-Licenses) are in use and another call comes in,57312349
+jpw,jtel Portal WIKI,Innovaphone integration with Salesforce,57312433
+jpw,jtel Portal WIKI,Release 3.29,57312446
+jpw,jtel Portal WIKI,Innovaphone Cloud PBX,57312559
+jpw,jtel Portal WIKI,AcdAgentStatus REST API,57312577
+jpw,jtel Portal WIKI,AcdAgentStatus REST API - Data Structures,57312579
+jpw,jtel Portal WIKI,AcdAgentStatus REST API - AcdAgentStatus Functions,57312582
+jpw,jtel Portal WIKI,CallControl REST API,57312589
+jpw,jtel Portal WIKI,CallControl REST API - Functions,57312591
+jpw,jtel Portal WIKI,CallControl REST API - Data Structures,57312595
+jpw,jtel Portal WIKI,Routing Applications REST API,57312602
+jpw,jtel Portal WIKI,Routing Applications REST API - Data Structures,57312604
+jpw,jtel Portal WIKI,Routing Applications REST API - Functions,57312606
+jpw,jtel Portal WIKI,Network IVR Lists REST API,57312613
+jpw,jtel Portal WIKI,Network IVR Lists REST API - Data Structures,57312615
+jpw,jtel Portal WIKI,Network IVR Lists REST API - Functions,57312617
+jpw,jtel Portal WIKI,Swagger,57312622
+jpw,jtel Portal WIKI,Master Data REST API - Languages Functions,57312628
+jpw,jtel Portal WIKI,Master Data REST API - ServiceNumbers Functions,57312630
+jpw,jtel Portal WIKI,Media History and Types,57312699
+jpw,jtel Portal WIKI,Setup in Innovaphone,57312794
+jpw,jtel Portal WIKI,Setup in Salesforce,57312796
+jpw,jtel Portal WIKI,App Overview,57312799
+jpw,jtel Portal WIKI,Usage,57312801
+jpw,jtel Portal WIKI,jtel Release Update - Testing Checklist,57312879
+jpw,jtel Portal WIKI,createVoiceMail,73498625
+jpw,jtel Portal WIKI,Sample Apex Class createVoiceMail,73498628
+jpw,jtel Portal WIKI,AcdEvent JSON Structure,73498635
+jpw,jtel Portal WIKI,ACD Group - Parameters - REST Calls (Create Voice Mail),73498640
+jpw,jtel Portal WIKI,Group Rule - Voice Mail - Call Flow,73498746
+jpw,jtel Portal WIKI,Group Rule - Request Callback - Call Flow,73498771
+jpw,jtel Portal WIKI,Group Rule - Request Callback 2 - Call Flow,73498793
+jpw,jtel Portal WIKI,Group Rule - Request Callback 3 - Call Flow,73498805
+jpw,jtel Portal WIKI,Group Rule - Request Callback or Voice-Mail - Call Flow,73498837
+jpw,jtel Portal WIKI,ACD Call-Flow,73498894
+jpw,jtel Portal WIKI,Teams Rules and Routing in the IVR and ACD,73499096
+jpw,jtel Portal WIKI,Run Script,73499147
+jpw,jtel Portal WIKI,Enable legacy authentication for Office 365 account,73499230
+jpw,jtel Portal WIKI,Create an Azure AD App with Graph permissions for Mail,73499277
+jpw,jtel Portal WIKI,ACD Group - Parameters - Callback - SMS Confirmations,73499348
+jpw,jtel Portal WIKI,Release 3.30,73499404
+jpw,jtel Portal WIKI,Configuration of SMTP utility for Debian,73499463
+jpw,jtel Portal WIKI,ACD-TAC-007 - ACD Transaction Codes Service Numbers Report,73499729
+jpw,jtel Portal WIKI,Task Scheduler,73499898
+jpw,jtel Portal WIKI,Task Reschedule,73499907
+jpw,jtel Portal WIKI,Release 3.31,73499929
+jpw,jtel Portal WIKI,Azure Login Configuration,73500206
+jpw,jtel Portal WIKI,Teams - Testing the API with Postman,73500237
+jpw,jtel Portal WIKI,Teams - Configure Jtel Portal in Microsoft Teams,73500321
+jpw,jtel Portal WIKI,Teams - Teams Profiles,73500472
+jpw,jtel Portal WIKI,Release 3.32,73500522
+jpw,jtel Portal WIKI,Update jrest and presence-aggregator,73500591
+jpw,jtel Portal WIKI,SSL/TLS Certificates - Accessing your jtel portal via https,73500620
+jpw,jtel Portal WIKI,ACD-E-001 - ACD Events Details Report,73500693
+jpw,jtel Portal WIKI,Compressed Stats - CompressedACDB,73500791
+jpw,jtel Portal WIKI,CompressedACDB,73500796
+jpw,jtel Portal WIKI,Connecting SBCs,73500805
+jpw,jtel Portal WIKI,JTELStats2 - Calabrio Queue Report,73500834
+jpw,jtel Portal WIKI,JTELStats2 - Calabrio Agent Queue Report,73500836
+jpw,jtel Portal WIKI,JTELStats2 - Calabrio Agent Report,73500838
+jpw,jtel Portal WIKI,Release 3.33,73500941
+jpw,jtel Portal WIKI,jtel Cloud TTS,106364963
+jpw,jtel Portal WIKI,Supervisor - Thresholds for Table Columns,107675650
+jpw,jtel Portal WIKI,Customization of Agent Home and Mini Client Displays,107675685
+jpw,jtel Portal WIKI,genericQuery,109674502
+jpw,jtel Portal WIKI,Sample Apex Class genericQuery,109674504
+jpw,jtel Portal WIKI,IVR Object genericQuery,109674508
