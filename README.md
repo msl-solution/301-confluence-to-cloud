@@ -54,12 +54,21 @@ Therefore, we need to
 #### Retrieve the current mapping of page titles to IDs
 
 ```sql
-SELECT S.LOWERSPACEKEY, S.SPACENAME, TITLE, CONTENTID
+MYSQL_PASS="FIXME"
+mysql \
+  -uroot \
+  -p"${MYSQL_PASS}" \
+  -h 10.42.16.3 \
+  -Dconfluence \
+   --batch \
+  -e "
+SELECT CONCAT(S.LOWERSPACEKEY, '#', S.SPACENAME, '#', TITLE, '#', CONTENTID)
 FROM CONTENT
 JOIN SPACES S on CONTENT.SPACEID = S.SPACEID
 WHERE CONTENTTYPE = 'PAGE'
     AND PREVVER IS NULL
     AND CONTENT_STATUS = 'current';
+"
 ```
 
 and save the output to `./provide-mapping/pages.csv` so that it looks like this

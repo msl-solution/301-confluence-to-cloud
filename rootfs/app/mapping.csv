@@ -54,6 +54,7 @@ GAAF,/jpw/Inboxes+and+edit+e-mails
 GQAF,/jpw/Junk+Groups
 FwAF,/jpw/Edit+Service+Numbers
 NgAF,/jpw/Transaction-Codes
+NwAF,/jpw/Logging,+Statistics+and+Reports
 NAAF,/jpw/Call-Flow+Logging
 MgAF,/jpw/Reports
 MQAF,/jpw/Login+und+Logout
@@ -263,6 +264,7 @@ pQAF,/jpw/Linking+STORE+(All+Linux+except+STORE)
 lwAF,/jpw/Role+DATA+-+All+Variants
 mQAF,/jpw/Role+DATA+-+Simple+Master+/+Slave
 ngAF,/jpw/Role+DATA+-+Installation+PlatformUDPListener
+0AAF,/jpw/Role+DATA+-+Backup+(on+one+of+the+MASTER+servers,+old+manual+with+automysqlbackup)
 0QAF,/jpw/Role+DATA+-+Initial+setup+of+the+system+data
 1QAF,/jpw/Rolle+DATA+-+Master+/+Master+++2+Slaves+(Redundanz)
 ywAF,/jpw/Role+DATA+-+Initial+setup+of+the+replication
@@ -392,6 +394,7 @@ jgMOAQ,/jpw/Dialler+Contacts+-+Import+/+Export
 mgMOAQ,/jpw/REST
 ngMOAQ,/jpw/Dialler+REST+API
 oQMOAQ,/jpw/REST+API+Access
+qQMOAQ,/jpw/Rolle+DATA+-+Jobs+Cleaner+(auf+den+SLAVE+Server,+der+die+Reports+erstellt)
 rgMOAQ,/jpw/Dialler+REST+API+-+Dialler+Campaign+Functions
 rwMOAQ,/jpw/Return+Codes
 uAMOAQ,/jpw/Ports+that+jtel+requires+/+uses+through+VPN+on+a+customer+system
@@ -554,6 +557,7 @@ ahOKAQ,/jpw/User+Data+-+Categories
 bROKAQ,/jpw/jtel+E-Mail+Management
 bxOKAQ,/jpw/Contact+Lists
 kROKAQ,/jpw/Departments
+mhOKAQ,/jpw/Supervisor+-+Tab+Custom+1,+Custom+2,+Custom+3
 qhOKAQ,/jpw/Supervisor+-+Dynamic+Priority+Groups
 rROKAQ,/jpw/Create+Group
 QRSKAQ,/jpw/Redundancy+-+Installing+PCS+Cluster+(Debian/Win2019)
@@ -769,6 +773,7 @@ A4BbAg,/jpw/ACD-TAC-006+-+ACD+Transaction+Codes+Sums+Evaluation
 C4BhAg,/jpw/ACD-A-015+-+ACD+Agent+Report+4
 DYBhAg,/jpw/ACD-A-013+-+ACD+Statistics+Agent+Calls
 uoBhAg,/jpw/ACD-S-002+-+Service+Numbers+Report+2+(Inbound+ACD)+and+variant
+vIBhAg,/jpw/ACD-S-003+-+Service+Numbers+Report+4+(Inbound+ACD,+Standard+Opening+Times)
 voBhAg,/jpw/ACD-S-004+-+Service+Numbers+Report+5+(Inbound+Call+Counters+Grouped+by+Billing+Number)
 wIBhAg,/jpw/ACD-S-005+-+Service+Numbers+Report+6+(Inbound+Calls+and+Availability+Grouped+by+Billing+Number)
 0IBhAg,/jpw/AcdB+-+AcdGetMaxDurationTimeInQueue_GroupServiceNumber

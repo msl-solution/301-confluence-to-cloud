@@ -34,7 +34,8 @@ def read_csv_file(csv_file: str) -> Tuple[List[int], List[str], List[str]]:
 
     try:
         with open(csv_file, mode='r') as file:
-            reader = csv.reader(file)
+            # reader = csv.reader(file)
+            reader = csv.reader(file, delimiter='#')  # Update delimiter to '#'
             for row in reader:
                 page_id = int(row[3])
                 page_title = row[2]
