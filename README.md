@@ -1,57 +1,37 @@
-## Support the migration of wiki.jtel.de
+## Streamlining Atlassian Cloud Migration: Efficient Confluence Link Redirection
 
-Currently wiki.jtel.de points to a self-hosted instance of confluence:
-https://wiki.jtel.de -> VM, hosting confluence
+### The Importance of Redirection in Migration
 
-After the migration it'll point to this redirect service
-https://wiki.jtel.de -> openresty:80 (resolving tiny URLs and redirecting all calls to the target of the migration)
+Migrating to Atlassian Cloud presents a significant challenge: ensuring that existing Confluence links, which currently point to our on-premises instance, continue to function effectively. Merely redirecting users to the new wiki's homepage would be inadequate, as it would disrupt their access to specific content. To address this, we're implementing a redirection service. This service is crucial for maintaining the integrity of our Confluence link ecosystem during and after the migration, thereby ensuring a smooth transition for users and internal processes alike.
 
-### Use the container
+### Supported Link Formats
 
-Set migration target in [redirect app](./rootfs/app/main.lua) and build the container.
+Our redirection strategy will encompass all three principal link formats, providing users with a seamless transition experience:
 
-```bash
-docker build . -t openresty:latest
-```
+| Link Type           | Format                                                     | Example                                                       |
+|---------------------|------------------------------------------------------------|---------------------------------------------------------------|
+| Tiny URL            | `<scheme>://<fqdn>/<tiny_url_marker>/<tiny_url>`           | https://wiki.jtel.de/x/SQAF                                   |
+| Pretty URL          | `<scheme>://<fqdn>/display/<space_key>/<page_name>`        | https://wiki.jtel.de/display/JPW/Supervisor+-+Realtime+Values |
+| Direct Page ID URL  | `<scheme>://<fqdn>/pages/viewpage.action?pageId=<page_id>` | https://wiki.jtel.de/pages/viewpage.action?pageId=327753      |
 
-The container can then be started via
+### Redirection Strategy
 
-```bash
-docker compose up
-```
+Given that the migration alters page IDs, and since Tiny URLs are derived from these IDs, we cannot directly use page_id or tiny_url for redirection. Our solution focuses on using the page title, which remains consistent post-migration.
 
-#### Test
+Initial dry-runs revealed that the Pretty URL format in Atlassian Cloud typically includes a `pages/<new_page_id>` structure. However, an alternative format allows for redirection without needing the new page ID: `<scheme>://<new_fqdn>/wiki/display/<space_key>/<page_name>`. This approach leverages the unchanged page titles for consistent redirection.
 
-```bash
-# Resolve to log URL using page title
-curl -v localhost/FYhhB
+Our methodology, backed by insights from [Atlassian's documentation on Tiny URLs](https://confluence.atlassian.com/confkb/how-to-programmatically-generate-the-tiny-link-of-a-confluence-page-956713432.html) and [community discussions](https://community.atlassian.com/t5/Confluence-questions/What-is-the-algorithm-used-to-create-the-quot-Tiny-links-quot/qaq-p/186555), involves:
 
-# Redirect as is
-curl -v localhost/FYhhBwerg
+1. Extracting the current mapping of IDs to page titles.
+2. Calculating the <tiny_url> and associating both pageId and <tiny_url> with the corresponding page title.
 
-# Resolve to log URL using page title, keep parameters
-curl -v localhost/FYhhB?wth
+Consequently, we can redirect all link formats to `<scheme>://<new_fqdn>/wiki/display/<space_key>/<page_name>`, assuring users are directed to the appropriate content in the new environment.
 
-# Redirect as is, keep parameters
-curl -v localhost/pages/viewpage.action?pageId=327789
-```
+### Mapping Process
 
+#### Retrieving Page Titles and IDs
 
-### Why, oh why?
-
-Currently, the JTEL application relies heavily on short links to wiki.jtel.de, for example, https://wiki.jtel.de/x/TgAF, which maps to https://wiki.jtel.de/display/JPW/jtel-Portal+WIKI.
-
-We now need to rewrite these abbreviated URLs to the destination of our migration, like https://wiki.jtel.de/x/TgAF to https://jtelgmbh.atlassian.net/wiki/spaces/JPW/jtel-Portal+WIKI.
-
-The abbreviated URL is not stored in the database but is generated based on the content ID of the page. Although it's possible to infer the ID from the tiny URL and use this ID directly (e.g., https://wiki.jtel.de/pages/viewpage.action?pageId=2163916), we cannot rely on it for referencing the page, as this ID is expected to change during the migration.
-
-Therefore, we need to
-
-- Retrieve the mapping of page titles to IDs for wiki.jtel.de
-- Calculate the tiny URL and map it to a page title
-- Utilize this mapping as the source for our redirection mechanism.
-
-#### Retrieve the current mapping of page titles to IDs
+We employ the following SQL query to map page titles to IDs:
 
 ```sql
 MYSQL_PASS="FIXME"
@@ -71,31 +51,26 @@ WHERE CONTENTTYPE = 'PAGE'
 "
 ```
 
-and save the output to `./provide-mapping/pages.csv` so that it looks like this
+We use `#` as delimiter. The output is formatted and saved to `./provide-mapping/pages.csv`, and in our case looks like this:
 
 ```csv
-head ./provide-mapping/pages.csv
-jpw,jtel Portal WIKI,Supervisor - Realtime Values,327753
-jpw,jtel Portal WIKI,Supervisor and Wallboard Content,327854
-jpw,jtel Portal WIKI,Supervisor - Today's  Statistics,327852
-jpw,jtel Portal WIKI,Supervisor - Inbound Media Events,327863
-jpw,jtel Portal WIKI,Supervisor - Wallboard Total,327879
-jpw,jtel Portal WIKI,Supervisor - Wallboard Graphics,327940
-jpw,jtel Portal WIKI,Supervisor - Group Details,327948
-jpw,jtel Portal WIKI,jtel Portal WIKI,327758
+head provide-mapping/pages.csv
+jpw#jtel Portal WIKI#Supervisor - Realtime Values#327753
+jpw#jtel Portal WIKI#Supervisor and Wallboard Content#327854
+jpw#jtel Portal WIKI#Supervisor - Today's  Statistics#327852
 ...
 ```
 
-#### Calculate the tiny URL and map it to a page title
+#### Mapping Tiny URLs to Titles
 
-In addition to [generating the tiny URL from the page ID and associating it with a title](./provide-mapping/generate_mapping.py), we substitute all spaces with a plus sign. This allows us to use the modified page title directly, thereby saving the redirect code from performing this task.
+Using a script, we generate the tiny URL for each page and map it to its title, substituting spaces with plus signs for direct usage.
 
 ```bash
 docker run \
   --rm \
   -ti \
   -v .:/host \
-  floriankessler/openresty \
+  openresty \
     sh -c '
       cd /host/provide-mapping && \
       python3 generate_mapping.py > \
@@ -103,31 +78,51 @@ docker run \
     '
 ```
 
-It looks like this:
+This mapping serves as the foundation for our redirection mechanism:
 
 ```csv
 head ./rootfs/app/mapping.csv
-SQAF,/jpw/Supervisor+-+Realtime+Values
-rgAF,/jpw/Supervisor+and+Wallboard+Content
-rAAF,/jpw/Supervisor+-+Today's++Statistics
-twAF,/jpw/Supervisor+-+Inbound+Media+Events
-xwAF,/jpw/Supervisor+-+Wallboard+Total
-BAEF,/jpw/Supervisor+-+Wallboard+Graphics
-DAEF,/jpw/Supervisor+-+Group+Details
-TgAF,/jpw/jtel+Portal+WIKI
+327753,SQAF,/jpw/Supervisor+-+Realtime+Values
+327854,rgAF,/jpw/Supervisor+and+Wallboard+Content
+327852,rAAF,/jpw/Supervisor+-+Today's++Statistics
 ...
 ```
 
-#### Utilize this mapping as the source for our redirection mechanism
+### Implementing the Redirection
 
-We instruct openresty to [load the mapping once at start time](./rootfs/app/init.lua) and use that dict in our [redirect code](./rootfs/app/main.lua).
+We instruct openresty to [load the mapping once at start time](./rootfs/app/init.lua) and use it in our [redirect code](./rootfs/app/main.lua).
 
-### Source
+#### Building and Using the Container
 
-https://confluence.atlassian.com/confkb/how-to-programmatically-generate-the-tiny-link-of-a-confluence-page-956713432.html
-https://community.atlassian.com/t5/Confluence-questions/What-is-the-algorithm-used-to-create-the-quot-Tiny-links-quot/qaq-p/186555
+Set the migration target in the [redirection app](./rootfs/app/main.lua) and build the container.
 
-https://wiki.jtel.de/pages/tinyurl.action?urlIdentifier=DYlhB
-https://wiki.jtel.de/x/DYlhB
+```bash
+docker build . -t openresty:latest
+```
 
-https://wiki.jtel.de/pages/viewpage.action?pageId=2163916
+To deploy, run:
+
+```bash
+docker compose up
+```
+
+#### Testing the Setup
+
+We perform tests using `curl` to ensure all link formats redirect correctly:
+
+```bash
+curl -v localhost/x/SQAF
+curl -v localhost/pages/viewpage.action?pageId=327753
+curl -v localhost/display/JPW/Supervisor+-+Realtime+Values
+curl -v "localhost/x/SQAF?t=1&t=2"
+curl -v "localhost/pages/viewpage.action?pageId=327753&t=1&t=2"
+curl -v "localhost/display/JPW/Supervisor+-+Realtime+Values?t=1&t=2"
+```
+
+Each request should redirect to https://jtelgmbh.atlassian.net/wiki/display/JPW/Supervisor+-+Realtime+Values
+
+##### Fallback Approach
+
+Should this static mapping stop working because the URL format will be changed by Atlassian a fallback would be this format
+
+`https://jtelgmbh.atlassian.net/wiki/pages/viewpage.action?spaceKey=JPW&title=Supervisor+-+Realtime+Values`

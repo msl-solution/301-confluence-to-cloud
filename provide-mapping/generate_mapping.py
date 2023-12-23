@@ -2,12 +2,11 @@ import base64
 import csv
 from typing import List, Tuple
 
-# Define URL prefixes centrally
+# Point to the result of our SQL query
 csv_file = "pages.csv"
-# prefix_tiny_url = "https://wiki.jtel.de/x/"
-# prefix_full_url = "https://jtelgmbh.atlassian.net/wiki/spaces/JPW/"
+csv_delimiter='#'
+
 prefix_tiny_url = ""
-prefix_full_url = ""
 
 # Function to convert spaces to plus signs in a string
 def replace_spaces_with_plus(title: str) -> str:
@@ -22,7 +21,7 @@ def convert_page_ids_to_tiny_urls(page_ids: List[int], page_spaces: List[str], m
         encoded = base64.b64encode(page_id.to_bytes(4, byteorder='little')).decode()
         encoded_fixed = encoded.replace("/", "-").replace("+", "_").rstrip('A=')
         tiny_url = f"{prefix_tiny_url}{encoded_fixed}"
-        tiny_urls.append(f"{tiny_url},/{page_space}/{replace_spaces_with_plus(modified_title)}")
+        tiny_urls.append(f"{page_id},{tiny_url},/{page_space}/{replace_spaces_with_plus(modified_title)}")
 
     return tiny_urls
 
@@ -35,7 +34,7 @@ def read_csv_file(csv_file: str) -> Tuple[List[int], List[str], List[str]]:
     try:
         with open(csv_file, mode='r') as file:
             # reader = csv.reader(file)
-            reader = csv.reader(file, delimiter='#')  # Update delimiter to '#'
+            reader = csv.reader(file, delimiter=csv_delimiter)
             for row in reader:
                 page_id = int(row[3])
                 page_title = row[2]
@@ -63,4 +62,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

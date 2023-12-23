@@ -4,37 +4,49 @@ local mappings = ngx.shared.mappings
 local serialized_data = mappings:get("mappings")
 
 -- Define the target for redirection
-local target = "jtelgmbh.atlassian.net/wiki/spaces/JPW"
-local target = "wiki.jtel.de"
+local target = "jtelgmbh.atlassian.net"
 
 -- Deserialize the JSON string to a Lua table
-local cjson = require("cjson")
-local mapping_data = cjson.decode(serialized_data)
+local cjson = require("cjson.safe") -- Use safe version for error handling
+local mapping_data, err = cjson.decode(serialized_data)
 
--- Now you can use 'mapping_data' in your logic
-if mapping_data then
+if not mapping_data then
+    ngx.log(ngx.ERR, "Error decoding JSON: ", err)
+    ngx.exit(ngx.HTTP_INTERNAL_SERVER_ERROR)
+end
 
-    -- Get the query parameters
-    local query_parameters = ngx.req.get_uri_args()
-    local query_string = ngx.encode_args(query_parameters)
+-- Get the query parameters
+local query_parameters = ngx.req.get_uri_args()
+local page_id = query_parameters.pageId
+query_parameters.pageId = nil
+local query_string = ngx.encode_args(query_parameters)
 
-    local uri = ngx.var.uri
-    local tiny_path = uri:match("/(.+)")
-    local full_path = mapping_data[tiny_path]
+local uri = ngx.var.uri
+local redirect_path
 
-    local target_url
-    if full_path then
-        -- Construct the target URL with the 'target' variable
-        target_url = ngx.var.scheme .. "://" .. target .. full_path
-    else
-        -- If no match is found, redirect without changing the path to the target host
-        target_url = ngx.var.scheme .. "://" .. target .. ngx.var.uri
-    end
+-- Pattern matching optimizations
+local tiny_key = uri:match("/x/(.+)")
+local is_viewpage_action = uri:find("viewpage.action")
 
-    -- Append the preserved query parameters
+if tiny_key then
+    redirect_path = mapping_data[tiny_key] and '/wiki/display' .. mapping_data[tiny_key]
+elseif is_viewpage_action and page_id then
+    redirect_path = mapping_data[page_id] and '/wiki/display' .. mapping_data[page_id]
+else
+    redirect_path = '/wiki' .. uri -- Preserving the existing URI
+end
+
+if redirect_path then
+    local target_url = ngx.var.scheme .. "://" .. target .. redirect_path
+
+    -- Append query parameters if present
     if query_string ~= "" then
         target_url = target_url .. "?" .. query_string
     end
 
+    -- Perform the redirect
     ngx.redirect(target_url, ngx.HTTP_MOVED_PERMANENTLY) -- 301 redirect
+else
+    -- Handle cases where no redirect path is found
+    ngx.exit(ngx.HTTP_NOT_FOUND)
 end
